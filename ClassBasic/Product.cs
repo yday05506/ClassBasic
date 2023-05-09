@@ -1,9 +1,8 @@
 ﻿namespace MyApp
 {
-    internal class Product
+    class Product
     {
-        public Product()
-        {
-        }
+        public string name = "default";
+        public int price = 0;
     }
 }
