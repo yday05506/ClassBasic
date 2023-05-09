@@ -6,10 +6,11 @@ namespace MyApp // Note: actual namespace depends on the project name.
     {
 
         private class Math { 
-            public int Abs(int a)
+            /* static public int Abs(int a)
             {
                 return 0;
             }
+            */
         }
 
         static void Main(string[] args)
@@ -21,7 +22,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
             Console.WriteLine("Hello World!");
 
             Math math = new Math();
-            Console.WriteLine(Math.Abs(-10));
+            // Console.WriteLine(Math.Abs(-10));
         }
 
         private class InnerClass
