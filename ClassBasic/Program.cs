@@ -48,7 +48,15 @@ namespace MyApp // Note: actual namespace depends on the project name.
             Product product4 = new Product() { price = 999999 };
             Product product5 = new Product() { price = 7777, name = "비트" };
 
-            Product.origin;
+            // 클래스 변수 출력
+            Console.WriteLine(Product.origin);
+            Console.WriteLine(product1.name + " / " + product1.price);
+            Console.WriteLine(product1);
+
+            List<Student> list = new List<Student>();
+            list.Add(new Student() { name = "곽경희", grade = 3 });
+            list.Add(new Student() { name = "권하은", grade = 2 });
+            list.Add(new Student() { name = "김선혜", grade = 1 });
         }
     }
 }
